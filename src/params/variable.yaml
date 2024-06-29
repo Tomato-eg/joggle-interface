@@ -1,0 +1,41 @@
+base_set:
+  User-Agent:
+    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0
+  Content-Type:
+    application/x-www-form-urlencoded
+
+method:
+  GET: GET
+  POST: POST
+  PUT: PUT
+  DELETE: DELETE
+
+base_url:
+  https://www.wanandroid.com
+
+url_path:
+  login:
+    /user/login
+  register:
+    /user/register
+  logout:
+    /logout/json
+
+cookie:
+  loginUserName:
+  loginUserPassword:
+
+argument:
+  register:
+    username:
+    password:
+    repassword:
+  login:
+    username:
+    password:
+  # 新增一条Todo
+  todo:
+    title: 新增标题
+    content: 新增详情
+    date: 2018-08-01
+    type: 0
